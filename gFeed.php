@@ -90,6 +90,7 @@ class gRSS {
             $r[] = "\t\t\t<author>".$y['author']."</author>";
             $r[] = "\t\t\t<pubdate>".$y['pubdate']."</pubdate>";
             $r[] = "\t\t\t<link>".$y['link']."</link>";
+            $r[] = "\t\t\t<guid>".$y['link']."</guid>";
             $r[] = "\t\t\t<description><![CDATA[".$y['description']."]]></description>";    
             $r[] = "\t\t</item>";
         }
