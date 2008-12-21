@@ -1,0 +1,23 @@
+=== Another PHP Blog's Planetarium ===
+
+This project aims to create an easy to install Blog planetarium in PHP.
+
+
+=== How to install ===
+
++ Edit config.php
++ Create mysql database
+    echo create database DBNAME | mysql -u USER
+    cat  mysql-dump.sql | mysql -u USER DBNAME
+    rm mysql-dump.sql
++ Crawling
+    Execute scripts/crawl.php via web or any other crond task (recommended). 
+
+=== TODO ===
+
++ Admin page.
++ Premiums blogs, links exchange.
++ Blogs' rankings based on unique users visits.
++ Allow users (without registration) to creates feeds with blogs he/she wants to follow.
++ Template system.
++ ...
