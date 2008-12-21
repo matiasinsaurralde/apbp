@@ -1,0 +1,62 @@
+==[ Foreword ]==
+This version is completely redesigned with a fancy new look of CAPTCHA.
+In order to simplify the the usage, I also redisgned the interface.
+
+The newest Version can be found at [1].
+
+==[ Requirements ]==
+- PHP >= 4.0.1
+- TTF support
+- Some fonts
+
+==[ Fonts ]==
+Before you can start using this class, you need some fonts.
+
+You can either get the font-package [2] or some other fonts [3].
+When you got one or more fonts, just put them into the 
+font directory and they will be used randomly.
+
+==[ Usage ]==
+It's realy easy to use this class.
+
+Example:
+
+Generatin a CAPTCHA:
+
+  $captcha = new captcha();
+
+To geht the string shown in the CAPTCHA use this:
+
+  $CaptchaString = $captcha->GetCaptchaString();
+
+See example.php and captcha.php for a detailed example.
+
+That's it :)
+
+
+==[ Author ]==
+Pascal Rehfeldt
+Pascal@Pascal-Rehfeldt.com
+
+http://www.pascal-rehfeldt.com/
+
+
+==[ License ]==
+GNU General Public License (Version 2, June 1991)
+
+This program is free software; you can redistribute
+it and/or modify it under the terms of the GNU
+General Public License as published by the Free
+Software Foundation; either version 2 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will
+be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License
+for more details.
+
+
+[1] http://www.pascal-rehfeldt.com/english/content/Captcha.html
+[2] http://www.pascal-rehfeldt.com/getfile.php?file=fonts.tar.gz
+[3] http://www.1001fonts.com/

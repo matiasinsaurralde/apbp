@@ -1,0 +1,13 @@
+==[ Version 2.0.1 ]==
+30.11.2006
+
+- solved a bug that caused that the class to couldn't find the fonts with some PHP configs (Thanks to Olli)
+
+
+==[ Version 2.0 ]==
+15.01.2006
+
+- changed the look of the captcha
+- improved security of the captcha (Thanks to Fabrizio Calderan)
+- changed the interface
+- bugfixes
