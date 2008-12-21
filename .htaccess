@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-s 
+    Rewriterule ^post/([0-9]+)$            go.php?id=$1
+    
+</IfModule>
