@@ -9,13 +9,13 @@ echo '<?xml version="1.0" encoding="utf-8"?>'
   <title>
     Blogs Paraguayos 
   </title>
-  <link href="/style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feedproxy.google.com/pygosfera" />
-  <link rel="stylesheet" type="text/css" href="/plogeshi.css" />
+  <link rel="stylesheet" type="text/css" href="plogeshi.css" />
  </head>
 <body>
   <div id="head">
-   <a href="/"><img src="/logo.png" hspace="30" alt="Planet PHP" title="Planet PHP" border="0" /></a>
+   <a href="/"><img src="logo.png" hspace="30" alt="Planet PHP" title="Planet PHP" border="0" /></a>
    <div id="topnavi">
         Directorio de Blogs Paraguayos
    </div>
